@@ -5,8 +5,8 @@ class DeleteBoard {
     );
   }
 
-  get archiveBtn() {
-    return cy.get(".vs-c-btn--spaced").eq(-2);
+  get deleteBtn() {
+    return cy.get(".vs-c-btn--spaced").eq(2);
   }
 }
 export const deleteBoard = new DeleteBoard();
